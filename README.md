@@ -34,37 +34,33 @@ It allows users to register, login, and perform CRUD operations on Job Listings,
 Follow these steps to run the project locally:
 
 ### 1. Clone the repository
+    git clone https://github.com/<your-github-username>/hirehub-api.git
+    cd hirehub-api
 
-
-              git clone https://github.com/<your-github-username>/hirehub-api.git
-              cd hirehub-api
-
-            
 ### 2. Create a Virtual Environment
-              python -m venv env
+    python -m venv env
               
 #### Activate it:
   - Windows:
     
-              .\env\Scripts\activate
+        .\env\Scripts\activate
     
   - Linux/Mac:
       
-              source env/bin/activate
+        source env/bin/activate
 
 ### 3. Install Dependencies
 
-              pip install -r requirements.txt
+    pip install -r requirements.txt
 
  ### 4. Apply Migrations
 
-              python manage.py makemigrations
-              python manage.py migrate
+    python manage.py makemigrations
+    python manage.py migrate
  
 
  ### 5. Create a Superuser
-              python manage.py createsuperuser
+    python manage.py createsuperuser
 
 ### 6. Run the server
-
-              python manage.py runserver
+    python manage.py runserver
