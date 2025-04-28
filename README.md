@@ -42,12 +42,13 @@ Follow these steps to run the project locally:
             
 ### 2. Create a Virtual Environment
               python -m venv env
+              
 #### Activate it:
   - Windows:
     
               .\env\Scripts\activate
     
-    - Linux/Mac:
+  - Linux/Mac:
       
               source env/bin/activate
 
